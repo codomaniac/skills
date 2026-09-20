@@ -6,7 +6,7 @@ Claude Code skills, published as a marketplace.
 
 ```
 /plugin marketplace add codomaniac/skills
-/plugin install proofread@codomaniac
+/plugin install claude-proofread@codomaniac
 ```
 
 `/plugin marketplace update` picks up anything added later.
@@ -15,12 +15,13 @@ Claude Code skills, published as a marketplace.
 
 | Skill | What it does |
 | --- | --- |
-| `proofread` | Reports on prose without editing it: mechanical errors with the rule behind each, words the author is talking around, and clutter by Zinsser's rules in *On Writing Well*. |
-| `obsidian-proofread` | The same proofreading, written out as the JSON report the [Obsidian Proofread plugin](https://github.com/codomaniac/obsidian-proofread) draws on a note. |
+| `claude-proofread` | Reports on prose without editing it: mechanical errors with the rule behind each, words the author is talking around, and clutter by Zinsser's rules in *On Writing Well*. |
+| `proofread` | The same proofreading, written out as the JSON report the [Obsidian Proofread plugin](https://github.com/codomaniac/obsidian-proofread) draws on a note. |
 
-`obsidian-proofread` is listed from the plugin's own repository rather than copied
-here, because it is tied to that plugin's report format and the two have to
-change together.
+`proofread` is listed from the plugin's own repository rather than copied here,
+because it is tied to that plugin's report format and the two have to change
+together. `claude-proofread` is the one to install for proofreading in the
+terminal, with no Obsidian involved.
 
 ## Layout
 
@@ -37,8 +38,8 @@ plugins/<name>/
 An entry in the catalog is either a directory here or a pointer somewhere else:
 
 ```json
-{ "name": "proofread", "source": "proofread" }
-{ "name": "obsidian-proofread",
+{ "name": "claude-proofread", "source": "claude-proofread" }
+{ "name": "proofread",
   "source": { "source": "github", "repo": "codomaniac/obsidian-proofread" } }
 ```
 

@@ -1,5 +1,5 @@
 {
-	"name": "proofread",
+	"name": "claude-proofread",
 	"description": "Proofread prose and report on it without editing: mechanical errors with the rule behind each, words the author is talking around, and clutter by Zinsser's rules in On Writing Well.",
 	"version": "1.0.0",
 	"author": {
