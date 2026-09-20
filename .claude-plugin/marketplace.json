@@ -1,0 +1,30 @@
+{
+	"name": "codomaniac",
+	"owner": {
+		"name": "Piotr Rusin",
+		"url": "https://codomaniac.com"
+	},
+	"description": "Skills for writing, published alongside the videos at codomaniac.com.",
+	"metadata": {
+		"pluginRoot": "./plugins"
+	},
+	"plugins": [
+		{
+			"name": "proofread",
+			"source": "proofread",
+			"description": "Proofread prose and report on it without editing: mechanical errors with the rule behind each, words the author is talking around, and clutter by Zinsser's rules.",
+			"category": "writing",
+			"keywords": ["writing", "proofreading", "editing"]
+		},
+		{
+			"name": "proofread-report",
+			"source": {
+				"source": "github",
+				"repo": "codomaniac/obsidian-proofread"
+			},
+			"description": "Proofread a note and write the findings to the JSON report the Obsidian Proofread plugin reads. Lives with the plugin, because it is tied to that plugin's report format.",
+			"category": "writing",
+			"keywords": ["obsidian", "proofreading", "writing"]
+		}
+	]
+}
