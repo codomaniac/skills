@@ -17,7 +17,7 @@
 			"keywords": ["writing", "proofreading", "editing"]
 		},
 		{
-			"name": "proofread-report",
+			"name": "obsidian-proofread",
 			"source": {
 				"source": "github",
 				"repo": "codomaniac/obsidian-proofread"
