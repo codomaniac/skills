@@ -19,14 +19,6 @@
 			"license": "MIT",
 			"category": "writing",
 			"keywords": ["obsidian", "proofreading", "writing"]
-		},
-		{
-			"name": "claude-proofread",
-			"source": "claude-proofread",
-			"description": "Proofread prose and report on it without editing: mechanical errors with the rule behind each, words the author is talking around, and clutter by Zinsser's rules.",
-			"license": "MIT",
-			"category": "writing",
-			"keywords": ["writing", "proofreading", "editing"]
 		}
 	]
 }
