@@ -15,7 +15,7 @@ Claude Code skills, published as a marketplace.
 
 | Skill | What it does |
 | --- | --- |
-| `proofread` | The same proofreading, written out as the JSON report the [Obsidian Proofread plugin](https://github.com/codomaniac/obsidian-proofread) draws on a note. |
+| `proofread` | Proofreading by the rules in Zinsser's *On Writing Well* and Williams's *Style: Lessons in Clarity and Grace*, written out as the JSON report the [Obsidian Proofread plugin](https://github.com/codomaniac/obsidian-proofread) draws on a note. |
 
 `proofread` is listed from the plugin's own repository rather than copied here,
 because it is tied to that plugin's report format and the two have to change
